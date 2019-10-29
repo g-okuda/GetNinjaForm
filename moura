@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang=pt-br ng-app=app>
+
+<head>
+    <base href=/>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no">
+    <title ng-bind=pageTitle>Moura Fácil</title>
+    <meta name=description content="Procurando Bateria para o seu Carro? Compre no Moura Fácil! Serviço Oficial da Baterias Moura. Receba sua Bateria em até 50 minutos com entrega grátis!">
+    <meta property=fb:app_id content=415208789324083>
+    <meta property=og:description content="Procurando Bateria para o seu Carro? Compre no Moura Fácil! Serviço Oficial da Baterias Moura. Receba sua Bateria em até 50 minutos com entrega grátis!">
+    <meta property=og:image content=https://www.mourafacil.com.br/app/images/img-share.jpg>
+    <meta property=og:image:width content=1200>
+    <meta property=og:image:height content=630>
+    <meta property=og:site_name content="Baterias de Carro: Peça Online e Receba onde estiver! - Moura Fácil">
+    <meta property=og:title content="Moura Fácil">
+    <meta property=og:type content=website>
+    <meta property=og:url content=https://www.mourafacil.com.br/>
+    <meta name=twitter:card content=summary_large_image>
+    <meta name=twitter:description content="Procurando Bateria para o seu Carro? Compre no Moura Fácil! Serviço Oficial da Baterias Moura. Receba sua Bateria em até 50 minutos com entrega grátis!">
+    <meta name=twitter:image content=https://www.mourafacil.com.br/app/images/img-share.jpg>
+    <meta name=twitter:image:alt content="Baterias de Carro: Peça Online e Receba onde estiver! - Moura Fácil">
+    <meta name=twitter:title content="Baterias de Carro: Peça Online e Receba onde estiver! - Moura Fácil">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <meta name=apple-mobile-web-app-title content="Moura Fácil">
+    <meta name=fragment content=!>
+    <meta name=google-site-verification content=AGyZ9KxhrUJUAobz97WZzHoJ1ETh4C4NXVdF7Fl6jqg>
+    <link rel=canonical href=https://www.mourafacil.com.br/>
+    <link rel=stylesheet href=https://www.mourafacil.com.br/stylesheets/app-7b0a2085b1.css>
+    <script>
+        "3000" !== window.location.port && "https:" !== window.location.protocol && (window.location.protocol = "https:")
+    </script>
+</head>
+
+<body class="{{ bodyClass }}" id=moura-facil ng-class="{ 'is-from-exchange': fromExchange }">
+    <div ui-view></div>
+    <script src=https://www.mourafacil.com.br/scripts/vendor-23472c533a.js></script>
+    <script src=https://www.mourafacil.com.br/scripts/app-c41954fb0f.js></script>
+    <script>
+        ! function(e, t, n, c, o, a, f) {
+            e.fbq || (o = e.fbq = function() {
+                o.callMethod ? o.callMethod.apply(o, arguments) : o.queue.push(arguments)
+            }, e._fbq || (e._fbq = o), o.push = o, o.loaded = !0, o.version = "2.0", o.queue = [], a = t.createElement(n), a.async = !0, a.src = c, f = t.getElementsByTagName(n)[0], f.parentNode.insertBefore(a, f))
+        }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"), fbq("init", "392754294835838"), fbq("track", "PageView")
+    </script>
+    <noscript ng-if=fromPartnerMktJogga><img src="https://www.facebook.com/tr?id=392754294835838&ev=PageView&noscript=1" width=1 height=1></noscript>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTB4V1cdR8_HbuWF-ZawbCHrkLlkT7gAE&libraries=geometry,places&language=pt_BR"></script>
+    <script>
+        ! function(e, t, a, n, r) {
+            e[n] = e[n] || [], e[n].push({
+                "gtm.start": (new Date).getTime(),
+                event: "gtm.js"
+            });
+            var g = t.getElementsByTagName(a)[0],
+                m = t.createElement(a),
+                s = "dataLayer" != n ? "&l=" + n : "";
+            m.async = !0, m.src = "https://www.googletagmanager.com/gtm.js?id=" + r + s, g.parentNode.insertBefore(m, g)
+        }(window, document, "script", "dataLayer", "GTM-K9LFZ2K")
+    </script>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9LFZ2K" width=0 height=0 style=display:none;visibility:hidden></iframe>
+    </noscript>
+    <script>
+        ! function(e, t) {
+            if (!t.__SV) {
+                var n = window;
+                try {
+                    var i, a, p, o = n.location,
+                        r = o.hash;
+                    i = function(e, t) {
+                        return (a = e.match(RegExp(t + "=([^&]*)"))) ? a[1] : null
+                    }, r && i(r, "state") && (p = JSON.parse(decodeURIComponent(i(r, "state"))), "mpeditor" === p.action && (n.sessionStorage.setItem("_mpcehash", r), history.replaceState(p.desiredHash || "", e.title, o.pathname + o.search)))
+                } catch (c) {}
+                var l, s;
+                window.mixpanel = t, t._i = [], t.init = function(e, n, i) {
+                    function a(e, t) {
+                        var n = t.split(".");
+                        2 == n.length && (e = e[n[0]], t = n[1]), e[t] = function() {
+                            e.push([t].concat(Array.prototype.slice.call(arguments, 0)))
+                        }
+                    }
+                    var p = t;
+                    for ("undefined" != typeof i ? p = t[i] = [] : i = "mixpanel", p.people = p.people || [], p.toString = function(e) {
+                            var t = "mixpanel";
+                            return "mixpanel" !== i && (t += "." + i), e || (t += " (stub)"), t
+                        }, p.people.toString = function() {
+                            return p.toString(1) + ".people (stub)"
+                        }, l = "disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" "), s = 0; s < l.length; s++) a(p, l[s]);
+                    t._i.push([e, n, i])
+                }, t.__SV = 1.2, n = e.createElement("script"), n.type = "text/javascript", n.async = !0, n.src = "undefined" != typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === e.location.protocol && "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js", i = e.getElementsByTagName("script")[0], i.parentNode.insertBefore(n, i)
+            }
+        }(document, window.mixpanel || []), mixpanel.init("823cb783880190315c37b00926d43ab3")
+    </script>
+</body>
+
+</html>
